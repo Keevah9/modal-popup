@@ -86,11 +86,13 @@ h3{
     top: -6rem;
     border-radius: 50%;
     transition: all 0.3s linear;
+    transform: scale(1.3) ;
+    /* transform: ; */
 }
 .closeBtn:hover {
     cursor: pointer;
-    transform: rotate(60deg) scale(.13);
-    cursor: pointer;
+    transform: rotate(60deg) scale(1);
+    
 }
 .banner, .modalContainer{
     display: flex;
